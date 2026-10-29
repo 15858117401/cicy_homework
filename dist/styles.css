@@ -71,7 +71,7 @@ em { font-style: normal; font-weight: 300; }
 .dash-main { align-self: center; padding-bottom: 20px; }
 .dash-main .eyebrow { display: flex; gap: 12px; align-items: center; margin-bottom: 32px; }
 .small-cross { font-size: 15px; }
-.dash-main h1 { font-size: clamp(76px, 10.8vw, 175px); line-height: .82; letter-spacing: -.105em; margin: 0; font-weight: 500; white-space: nowrap; }
+.dash-main h1 { font-size: clamp(76px, 10.8vw, 175px); line-height: .9; letter-spacing: -.045em; margin: 0; font-weight: 500; white-space: nowrap; }
 .dash-main h1 em { color: var(--metallic-silver); }
 .dash-main p { max-width: 350px; margin: 42px 0 0 5px; color: #a8aab0; font-size: 14px; line-height: 1.55; }
 .dash-side { border-left: var(--hairline); display: flex; flex-direction: column; justify-content: space-between; padding: 29px 0 30px 22px; }
@@ -92,7 +92,7 @@ em { font-style: normal; font-weight: 300; }
 
 /* Job */
 .job-hero { min-height: 470px; display: grid; grid-template-columns: 1fr 205px; align-items: end; padding: 60px 0 45px; gap: 30px; border-bottom: var(--light-rule); }
-.job-hero h1 { font-size: clamp(74px, 10.4vw, 158px); line-height: .83; letter-spacing: -.105em; font-weight: 500; margin: 29px 0 0; text-transform: uppercase; }
+.job-hero h1 { font-size: clamp(74px, 10.4vw, 158px); line-height: .9; letter-spacing: -.045em; font-weight: 500; margin: 29px 0 0; text-transform: uppercase; }
 .job-hero-side { justify-self: stretch; align-self: stretch; display: flex; flex-direction: column; align-items: flex-end; justify-content: space-between; text-align: right; }
 .year-stamp { font-family: var(--font-numeric); font-size: clamp(65px, 8vw, 110px); line-height: .8; letter-spacing: -.1em; color: #bec1c5; }
 .job-hero-side p { font-size: 12px; line-height: 1.65; color: #50535a; }
@@ -278,7 +278,7 @@ em { font-style: normal; font-weight: 300; }
 .light-text-link:hover { text-decoration: underline; text-underline-offset: 4px; }
 .identity-page { min-height: calc(100vh - 130px); padding-bottom: 100px; }
 .identity-intro { padding: 65px 0 75px; border-bottom: var(--light-rule); }
-.identity-intro h1 { font-size: clamp(78px, 10vw, 150px); font-weight: 500; line-height: .84; letter-spacing: -.1em; margin: 33px 0; }
+.identity-intro h1 { font-size: clamp(78px, 10vw, 150px); font-weight: 500; line-height: .9; letter-spacing: -.045em; margin: 33px 0; }
 .identity-intro p { max-width: 580px; margin: 0 0 0 auto; font-size: 18px; line-height: 1.45; }
 .identity-rule-grid { display: grid; grid-template-columns: 1fr 1fr; border-bottom: var(--light-rule); }
 .identity-rule-grid > div { min-height: 155px; padding: 23px 0; display: flex; flex-direction: column; justify-content: space-between; }
@@ -418,7 +418,7 @@ em { font-style: normal; font-weight: 300; }
 
 @media (max-width: 390px) {
   .dash-main h1 { font-size: 57px; }
-  .job-hero h1 { font-size: 52px; }
+  .job-hero h1 { font-size: clamp(48px, 13.3vw, 52px); }
   .comparison-intro h1 { font-size: 58px; }
   .metric-primary strong { font-size: 70px; }
   .metric-secondary strong { font-size: 21px; }
