@@ -1,10 +1,8 @@
-/*
- * First-draft content source. Null means the project brief did not supply a final
- * value. Candidate A/B are system labels, not invented legal names. Replace the
- * provisional image files and visual studies when approved assets arrive.
- */
+/* Central content source for the static prototype. */
 window.AW_DATA = {
-  brand: "AESTHETIC / WORK",
+  brand: "CURATED.",
+  slogan: "Get hired for how you see.",
+  positioning: "The Future of Aesthetic Hiring",
   context: "New York · 2040",
   employer: { name: null, manager: null },
   job: {
@@ -22,26 +20,26 @@ window.AW_DATA = {
   },
   candidates: {
     A: {
-      label: "Candidate A", name: null, portrait: "./assets/candidate-a.png",
-      framing: "Experience-led profile", experience: 8, taste: 72, originality: 79,
-      verified: true, qualification: "Below Aesthetic Threshold",
-      currentPosition: null, education: null, previousCompanies: null,
-      professionalSkills: null, visualJudgment: null, culturalAwareness: null,
-      classification: null, candidateId: null, identityNumber: null,
-      certificationDate: null, applicationStatus: null,
-      aestheticDirection: null, creativeExperience: null, personalStyle: null,
-      visualWorks: []
+      name: "Maya Laurent",
+      portrait: "./assets/candidate-a.png",
+      currentPosition: "Senior Brand Strategist",
+      experience: 8,
+      taste: 72,
+      originality: 79,
+      visualJudgment: 76,
+      culturalAwareness: 84,
+      verified: true
     },
     B: {
-      label: "Candidate B", name: null, portrait: "./assets/candidate-b.png",
-      framing: "Aesthetic-led profile", experience: 2, taste: 94, originality: 96,
-      verified: true, qualification: "Meets Aesthetic Threshold",
-      currentPosition: null, education: null, previousCompanies: null,
-      professionalSkills: null, visualJudgment: null, culturalAwareness: null,
-      classification: null, candidateId: null, identityNumber: null,
-      certificationDate: null, applicationStatus: null,
-      aestheticDirection: null, creativeExperience: null, personalStyle: null,
-      visualWorks: []
+      name: "Alex Chen",
+      portrait: "./assets/candidate-b.png",
+      currentPosition: "Creative Strategist",
+      experience: 2,
+      taste: 94,
+      originality: 96,
+      visualJudgment: 92,
+      culturalAwareness: 90,
+      verified: true
     }
   }
 };
